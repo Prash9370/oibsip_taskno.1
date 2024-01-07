@@ -1,0 +1,152 @@
+
+.container {
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(49, 49, 49);
+    width: 500px;
+    height: 600px;
+    border-radius: 2%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: auto;
+
+}
+
+.head {
+    width: 100%;
+    height: 30%;
+    background-color: #d0cfcf;
+    margin: 0px auto;
+    border-radius: 5px;
+}
+
+.body {
+    width: 100%;
+    height: 65%;
+    background-color: #d0cfcf;
+    margin: 20px auto;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.top {
+    padding: 0 30px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top>div:first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+    border: 1px solid black;
+    padding: 0;
+    margin: 0;
+}
+
+.top>div>p {
+    margin: 0;
+}
+
+.solar {
+    width: 30%;
+    height: 32px;
+    border-radius: 2px;
+    background-color: rgb(156 190 166);
+    border: 1px solid black;
+    box-shadow: 0 1.5px grey, 0 0 1px black inset;
+}
+
+.screencont {
+    background-color: black;
+    height: 50%;
+    width: 86%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.screen {
+    background-color: rgb(156 170 166);
+    height: 100%;
+    width: 90%;
+    line-height: 95px;
+    margin: auto;
+    border-radius: 5px;
+    color: black;
+    font-size: 70px;
+    font-family: 'Teko', sans-serif;
+    direction: rtl;
+    box-shadow: 0 2px 2px grey;
+}
+
+.grid-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+
+.grid-item {
+    height: 50px;
+    width: 65px;
+    margin: 10px;
+    background-color: #feffff;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 6px 1px rgb(71, 71, 71);
+
+}
+
+.grid-item:hover {
+    transform: translateY(2px);
+    box-shadow: 0 4px 1px rgb(71, 71, 71);
+}
+
+.grid-item:active {
+    transform: translateY(4px);
+    box-shadow: 0 2px 1px rgb(71, 71, 71);
+}
+
+.ex {
+    width: 150px;
+}
+
+.red {
+    background-color: rgb(253, 59, 59);
+}
+
+.black {
+    background-color: #1d1d1d;
+    color: white;
+}
+
+.blue {
+    background-color: #0091ff;
+    color: white;
+}
+
+.smallbtns {
+    font-size: 18px;
+    line-height: 15px;
+    height:45px
+}
+#oprscreen{
+    position: absolute;
+    transform: translate(30px,5px);
+    background-color: none;
+    font-size: 60px;
+    font-family: 'Teko', sans-serif;
+}
